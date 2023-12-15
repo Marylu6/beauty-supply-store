@@ -1,0 +1,73 @@
+:root {
+    --main-violet: #cdb4db;
+    --bright-pink: #ffc8dd;
+    --pink: #ffafcc;
+    --baby-blue: #bde0fe;
+    --blue:#a2d2ff;
+    --plain-yellow:yellow;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  #BG{
+    font-size: 18px;
+    line-height: 1.4;
+    background-color: var(--main-violet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kalam', cursive;
+    max-width: 1960px; /* Set the maximum width of the site */
+    margin: 0 auto; /* Center the site horizontally on the page */
+  }
+
+  .navbar{
+width: 331.5%;
+background-color: var(--pink);
+  }
+
+.logo{
+
+}
+
+.searchbar{
+
+  }
+
+
+.navigation{
+
+  }
+
+
+#navigationbtns{
+  justify-content: space-between;
+  align-items: center;
+display: flex;
+
+}
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+  .navbar .navbar-nav .nav-link {
+      color: #000000;
+      font-size: 1.1em;
+  }
+  .navbar .navbar-nav .nav-link:hover{
+      color: #808080;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+ 
