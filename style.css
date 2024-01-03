@@ -22,39 +22,33 @@
     font-size: 18px;
     line-height: 1.4;
     background-color: var(--main-violet);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-family: 'Kalam', cursive;
-    max-width: 1960px; /* Set the maximum width of the site */
-    margin: 0 auto; /* Center the site horizontally on the page */
+    /*max-width: 1960px; /* Set the maximum width of the site */
+    /*margin: 0 auto; /* Center the site horizontally on the page */
   }
 
   .navbar{
-width: 331.5%;
+width: 100%;
 background-color: var(--pink);
   }
-
 .logo{
-
+  padding: 0 40px;
 }
-
-.searchbar{
-
-  }
-
-
-.navigation{
-
-  }
-
+#searchbarbtn{
+  position: relative;
+left: 60%;
+}
 
 #navigationbtns{
-  justify-content: space-between;
-  align-items: center;
+ align-items: center;
+justify-content: center;
 display: flex;
-
 }
+
+#navbtn1,#navbtn2,#navbtn3,#navbtn4,#navbtn5,#navbtn6{
+  padding: 0 45px;
+}
+
   .dropdown .dropdown-menu {
     display: none;
   }
@@ -70,4 +64,7 @@ display: flex;
     display: block;
   }
 
- 
+ .promo-img1{
+display: block;
+
+ }
