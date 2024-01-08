@@ -6,4 +6,17 @@ a personal project that i made for myself
 update1:
 been focusing a lot on design it has been a bit difficult hopefully this will work
 
-  remember media queries 
+  remember media queries     
+
+
+
+
+
+
+  references:
+
+
+  claire store 
+
+  
+  sally store
