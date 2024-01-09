@@ -21,7 +21,7 @@
   #BG{
     font-size: 18px;
     line-height: 1.4;
-    background-color: var(--main-violet);
+    background-color: var(--pink);
     font-family: 'Kalam', cursive;
     /*max-width: 1960px; /* Set the maximum width of the site */
     /*margin: 0 auto; /* Center the site horizontally on the page */
@@ -66,5 +66,81 @@ display: flex;
 
  .promo-img1{
 display: block;
+ }
+
+ .megazines-banner{
+  background-color: var(--bright-pink);
+  padding: 10px 5px;
+ }
+
+ .new-arrival-title,.hostest-deals-title{
+  position: absolute;
+  left: 10%;
+  padding: 0;
+  margin: 0;
+ }
+
+ .new-arrival-title{
+  bottom: -8%;
+ }
+
+ .hostest-deals-title{
+
+  bottom: -50%;
+ }
+
+.hostest-deals,.best-sellers{
+margin-top: 80px;
+}
+.glam-title{
+text-align: center;
+}
+
+.Share-your-glam-box{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+ .bar{
+  background-color: var(--main-violet);
+  padding: 30px 10px;
 
  }
+
+ .grid-horizontal{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  
+ }
+
+.glamphoto{
+width: 100%;
+}
+
+.arrow-box{
+  position: absolute;
+  bottom: -112%;
+}
+
+.arrows-left, .arrows-right{
+  padding: 20px;
+  border: none;
+  border-radius: 20%;
+}
+
+.arrow-icon{
+  font-size: 30px;
+}
+.arrows-right{
+ position: absolute;
+ right: -2622%;
+ bottom: -5%;
+}
+
+footer{
+  background-color: var(--blue);
+}
+
