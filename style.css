@@ -64,6 +64,14 @@ display: flex;
     display: block;
   }
 
+
+#user,#cart{
+  padding: 10px;
+}
+
+.number-of-items{
+  padding: 10px 0;
+}
  .promo-img1{
 display: block;
  }
@@ -81,7 +89,7 @@ display: block;
  }
 
  .new-arrival-title{
-  bottom: -8%;
+  bottom: -7%;
  }
 
  .hostest-deals-title{
@@ -90,7 +98,7 @@ display: block;
  }
 
 .hostest-deals,.best-sellers{
-margin-top: 80px;
+margin-top: 100px;
 }
 .glam-title{
 text-align: center;
@@ -104,8 +112,15 @@ text-align: center;
 
  .bar{
   background-color: var(--main-violet);
-  padding: 30px 10px;
+  padding: 30px;
+  margin: 0;
 
+ }
+
+ .glamphoto{
+  width: 100%;
+  margin: 0;
+  padding: 0;
  }
 
  .grid-horizontal{
@@ -116,31 +131,27 @@ text-align: center;
   
  }
 
-.glamphoto{
-width: 100%;
-}
-
-.arrow-box{
-  position: absolute;
-  bottom: -112%;
-}
-
-.arrows-left, .arrows-right{
-  padding: 20px;
-  border: none;
-  border-radius: 20%;
-}
-
 .arrow-icon{
   font-size: 30px;
 }
-.arrows-right{
- position: absolute;
- right: -2622%;
- bottom: -5%;
-}
 
-footer{
+.social-box{
   background-color: var(--blue);
+margin-bottom: 0;
+padding: 20px;
+display: flex;
+justify-content: space-between;
 }
 
+.container-of-social-details{
+  text-align: center;
+}
+
+.link-box{
+margin: 10px;
+  border: 5px black solid;
+}
+
+.social-icons-box{
+  border: black 5px solid;
+}
