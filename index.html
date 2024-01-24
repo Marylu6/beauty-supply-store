@@ -15,10 +15,12 @@
     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
     <link rel="stylesheet" href="glide.core.min.css">
     <link rel="stylesheet" href="glide.theme.min.css">
+
     <!--font family-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
 <!--boostrap-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -30,12 +32,11 @@
 
 <body id="BG">
 
-
   <nav class="navbar navbar-expand-lg">
 
     <div class="container-fluid" id="searchbar">
 
-      <a class="navbar-brand logo" href="#">Navbar</a>
+      <a class="navbar-brand" href="#"><img class="logo" src="images/example of logo.PNG" alt="logo"></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -43,12 +44,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent" >
         <form class="d-flex" role="search" id="searchbarbtn">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn"  type="submit"><icon></icon></button>
+          <button class="btn" id="search-bar-btn"  type="submit"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
 
+          <div class="users-account-border">
          <!-- check codepen for the back-end code -->
-         <i class="fa-regular fa-user" id="user"></i>
-        <a href="*"> <i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            <a href="*">  <i class="fa-solid fa-user fa-lg" id="user"></i></a>
+         </div>
+         <div class="users-cart">
+             <a href="*"> <i class="fa-solid fa-cart-shopping fa-lg" id="cart"></i></a>
             <span id="cart-count" class="number-of-items" >0</span>
+         </div>
         
         </form>
       </div>
@@ -126,7 +131,6 @@
   </div> 
  </nav>
 
-  
  <main class="gallery-offers">
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
@@ -156,13 +160,8 @@
   </div>
  </main>
 
-
-
-
-
-
 <section class="best-sellers">
-  <h2 class="new-arrival-title">new arrivals</h2>
+  <h2 class="new-arrival-title">New arrivals</h2>
         <div class="container text-center">
           <div class="row">
             <div class="col">
@@ -298,13 +297,6 @@
 </div>
 </section>
 
-
-
-
-    
-    
-
-    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
@@ -332,91 +324,101 @@
 <footer class="social-box">
   <div class="container container-of-social-details ">
     <div class="row">
+
       <div class="col link-box ">
+        <h3>Help</h3>
 
         <div class="social-details">
-         <a href="*">4fawrfawfawf</a>
+         <a href="*" class="social-link">4fawrfawfawf</a>
         </div>
         <div class="social-details">
-          <a href="*">4fawrfawfawf</a>
+          <a href="*" class="social-link">4fawrfawfawf</a>
          </div>
          <div class="social-details">
-          <a href="*">4fawrfawfawf</a>
+          <a href="*" class="social-link">4fawrfawfawf</a>
          </div>
          <div class="social-details">
-          <a href="*">4fawrfawfawf</a>
+          <a href="*" class="social-link">4fawrfawfawf</a>
          </div>
 
       </div>
 
       <div class="col link-box">
+        <h3>Popular</h3>
 
         <div class="social-details">
-         <a href="*">4fawrfawfawf</a>
+         <a href="*" class="social-link">4fawrfawfawf</a>
         </div>
         <div class="social-details">
-          <a href="*">4fawrfawfawf</a>
+          <a href="*" class="social-link">4fawrfawfawf</a>
          </div>
          <div class="social-details">
-          <a href="*">4fawrfawfawf</a>
+          <a href="*" class="social-link">4fawrfawfawf</a>
          </div>
          <div class="social-details">
-          <a href="*">4fawrfawfawf</a>
+          <a href="*" class="social-link">4fawrfawfawf</a>
          </div>
 
       </div>
 
       <div class="col link-box">
+        <h3>Shop</h3>
 
         <div class="social-details">
-         <a href="*">4fawrfawfawf</a>
+         <a href="*" class="social-link">4fawrfawfawf</a>
         </div>
         <div class="social-details">
-          <a href="*">4fawrfawfawf</a>
+          <a href="*" class="social-link">4fawrfawfawf</a>
          </div>
          <div class="social-details">
-          <a href="*">4fawrfawfawf</a>
+          <a href="*" class="social-link">4fawrfawfawf</a>
          </div>
          <div class="social-details">
-          <a href="*">4fawrfawfawf</a>
+          <a href="*" class="social-link">4fawrfawfawf</a>
          </div>
 
       </div>
 
       <div class="col link-box">
+        <h3>About</h3>
 
         <div class="social-details">
-         <a href="*">4fawrfawfawf</a>
+         <a href="*" class="social-link">4fawrfawfawf</a>
         </div>
         <div class="social-details">
-          <a href="*">4fawrfawfawf</a>
+          <a href="*" class="social-link">4fawrfawfawf</a>
          </div>
          <div class="social-details">
-          <a href="*">4fawrfawfawf</a>
+          <a href="*" class="social-link">4fawrfawfawf</a>
          </div>
          <div class="social-details">
-          <a href="*">4fawrfawfawf</a>
+          <a href="*"  class="social-link">4fawrfawfawf</a>
          </div>
 
       </div>
 
 
-      <div class="col social-icons-box">
-        
-          <nav class="navbar minisearchbar">
-            <div class="container-fluid">
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
+      <div class="col-4" id="social-icons-box">
+
+        <div class="sub-details">
+         <h3>Stay Updated</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem id et soluta, ut dolor architecto adipisci provident omnis! </p>
+        </div>
+            <nav class="navbar subcribe-bar">
+                <div class="container-fluid">
+                  <form class="d-flex" role="email">
+                    <input class="form-control " type="email" placeholder="Enter your email address" aria-label="email">
+                    <button class="btn-sub" type="submit">Subcribe</button>
+                  </form>
+                </div>
+              </nav>
         
         <div class="social-icons">
           <a href="#" target="_blank"><i class="twi_icon fa-brands fa-square-twitter fa-2xl"></i></a>
           <a href="#" target="_blank"><i class="youtu_icon fa-brands fa-square-youtube fa-2xl"></i></a>
           <a href="#" target="_blank"><i class="red_icon fa-brands fa-square-reddit fa-2xl"></i></a>
           <a href="#" target="_blank"><i class="face_icon fa-brands fa-square-facebook fa-2xl"></i></a>
+          <a href="*" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl"></i></a>
         </div>
       </div>
 
@@ -425,7 +427,7 @@
 <div class="row">
  <div class="col copyright">
   
-    <p>@Ashley Suarez</p>
+    <p>Website created by <a href="https://github.com/Marylu6/beauty-supply-store">@Ashley Suarez</a></p>
  
  </div>
 </div>
