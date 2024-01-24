@@ -16,7 +16,7 @@ been focusing a lot on design it has been a bit difficult hopefully this will wo
   references:
 
 
-  claire store 
+  bad dragon(for seriuos purposes only)
 
   
   sally store
