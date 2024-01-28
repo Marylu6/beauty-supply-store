@@ -6,6 +6,7 @@
     --darker-pink:#92596e;
     --baby-blue: #bde0fe;
     --blue:#a2d2ff;
+    --white-grey:#f7eefa;
     --plain-yellow:yellow;
   }
   
@@ -23,7 +24,7 @@
   #BG{
     font-size: 18px;
     line-height: 1.4;
-    background-color: var(--pink);
+    background-color: var(--white-grey);
     font-family: 'Fjalla One', sans-serif;
     /*max-width: 1960px; /* Set the maximum width of the site */
     /*margin: 0 auto; /* Center the site horizontally on the page */
@@ -31,7 +32,7 @@
 
   .navbar{
 width: 100%;
-background-color: var(--blue);
+background-color: var(--main-violet);
   }
 
 .logo{
@@ -40,14 +41,22 @@ background-color: var(--blue);
   width: 25%;
   padding: 0 40px;
 }
+
+
 #searchbarbtn{
   position: relative;
-left: 70%;
+  left: 50%;
 }
 
 #search-bar-btn{
   color: var(--dark-pink);
+  border: var(--dark-pink) 2px solid;
 }
+
+#search-bar-btn:hover{
+  background-color: var(--bright-pink);
+}
+
 
 .users-account-border{
   display: flex;
@@ -71,6 +80,8 @@ justify-content: center;
 align-items: center;
 }
 
+
+
 #cart{
   color: var(--dark-pink);
 padding: 10px;
@@ -82,7 +93,8 @@ padding: 10px;
 
 #cart-count{
   text-decoration: underline;
-  padding: 0 10px;
+  padding: 10px 10px;
+  color: var(--darker-pink)
 }
 
 
@@ -111,17 +123,11 @@ display: flex;
     display: block;
   }
 
-.number-of-items{
-  padding: 10px 0;
-}
+
  .promo-img1{
 display: block;
  }
 
- .megazines-banner{
-  background-color: var(--bright-pink);
-  padding: 10px 5px;
- }
 
  .new-arrival-title,.hostest-deals-title{
   position: absolute;
@@ -155,6 +161,7 @@ text-align: center;
 
  .bar{
   background-color: var(--main-violet);
+  color: var(--dark-pink);
   padding: 30px;
   margin: 0;
 
@@ -166,20 +173,13 @@ text-align: center;
   padding: 0;
  }
 
- .grid-horizontal{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-  
- }
-
 .arrow-icon{
   font-size: 30px;
 }
 
 .social-box{
-  background-color: var(--blue);
+  background-color: var(--main-violet);
+  color: var(--dark-pink);
 margin-bottom: 0;
 padding: 20px;
 text-align: center;
@@ -225,7 +225,8 @@ padding: 30px 0;
 
 .btn-sub{
   border-radius: 30px;
-  background-color: var(--blue);
+  color: var(--dark-pink);
+  background-color: var(--main-violet);
 }
 
 .btn-sub:hover{
