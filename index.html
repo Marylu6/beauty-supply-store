@@ -20,6 +20,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
 <!--boostrap-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -32,18 +35,26 @@
 
 <body id="BG">
 
-  <nav class="navbar navbar-expand-lg">
 
-    <div class="container-fluid" id="searchbar">
 
-      <a class="navbar-brand" href="#"><img class="logo" src="images/example of logo.PNG" alt="logo"></a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-        <form class="d-flex" role="search" id="searchbarbtn">
+
+ <nav class="navbar navbar-expand-lg ">
+  
+  <div class="container-fluid">
+    
+    <a class="navbar-bran logo" href="#"><h1>Jewels</h1></a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="collapse navbar-collapse" id="navigationbtns">
+      
+      <form class="d-flex" role="search" id="searchbarbtn">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          
           <button class="btn" id="search-bar-btn"  type="submit"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
 
           <div class="users-account-border">
@@ -52,84 +63,77 @@
          </div>
         
              <button class="cart-btn"> <i class="fa-solid fa-cart-shopping fa-lg" id="cart"></i> <span id="cart-count"  >0</span></button>
-           
-         
-        
+  
         </form>
-      </div>
+
+      
+      
+      
+      <ul class="navbar-nav mt-auto"> <!-- mt-auto pushes second navbar to the bottom -->
+        
+           <li class="nav-item dropdown" id="navbtn1">
+              <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Hair Color </a>
+               <ul class="dropdown-menu " >
+               <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+               <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+               <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+               </ul>
+           </li>
+        
+             <li class="nav-item dropdown"  id="navbtn2">
+              <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Hair Care</a>
+               <ul class="dropdown-menu">
+               <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+               <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+               <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+               </ul>
+           </li>
+        
+             <li class="nav-item dropdown"  id="navbtn3">
+                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Tools and brushes </a>
+                 <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                 <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                 <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                 </ul>
+             </li>
+        
+             <li class="nav-item dropdown"  id="navbtn4">
+                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Nails </a>
+                 <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                 <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                 <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                 </ul>
+             </li>
+        
+             <li class="nav-item dropdown"  id="navbtn5">
+              <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Cosmetics &amp; Skincare </a>
+               <ul class="dropdown-menu " >
+               <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+               <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+               <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+               </ul>
+           </li>
+             
+           <li class="nav-item dropdown" id="navbtn6">
+            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Salon Supplies </a>
+             <ul class="dropdown-menu " >
+             <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+             <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+             <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+             </ul>
+         </li>
+      </ul>
+      
 
     </div>
+    
+  </div>
+</nav>
 
-  </nav>
 
-<nav class="navbar navbar-expand-lg navigation justify-content-center">
 
-  <div class="container-fluid ">
-
-   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-   </button>
-   <div class="collapse navbar-collapse" id="navigationbtns">
-   <ul class="navbar-nav"  >
-
-    <li class="nav-item dropdown" id="navbtn1">
-      <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Hair Color </a>
-       <ul class="dropdown-menu " >
-       <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-       <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-       <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
-       </ul>
-   </li>
-
-     <li class="nav-item dropdown"  id="navbtn2">
-      <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Hair Care</a>
-       <ul class="dropdown-menu">
-       <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-       <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-       <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
-       </ul>
-   </li>
-
-     <li class="nav-item dropdown"  id="navbtn3">
-        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Tools and brushes </a>
-         <ul class="dropdown-menu">
-         <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-         <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-         <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
-         </ul>
-     </li>
-
-     <li class="nav-item dropdown"  id="navbtn4">
-        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Nails </a>
-         <ul class="dropdown-menu">
-         <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-         <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-         <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
-         </ul>
-     </li>
-
-     <li class="nav-item dropdown"  id="navbtn5">
-      <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Cosmetics &amp; Skincare </a>
-       <ul class="dropdown-menu " >
-       <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-       <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-       <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
-       </ul>
-   </li>
-     
-   <li class="nav-item dropdown" id="navbtn6">
-    <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Salon Supplies </a>
-     <ul class="dropdown-menu " >
-     <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-     <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-     <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
-     </ul>
- </li>
-
-   </ul>
-   </div> 
-  </div> 
- </nav>
 
  <main class="gallery-offers">
   <div id="carouselExampleIndicators" class="carousel slide">
@@ -310,6 +314,7 @@
         autoplay:3000,
         hoverpause:true,
         breakpoints: {
+
            800: {
              perView:2
            }
@@ -318,7 +323,7 @@
       new Glide('.glide',config).mount()
     </script>
 
-<scrip src="Java.js"></scrip>
+
 </body>
 
 <footer class="social-box">
@@ -398,7 +403,7 @@
       </div>
 
 
-      <div class="col-4" id="social-icons-box">
+      <div class="col-4 md" id="social-icons-box">
 
         <div class="sub-details">
          <h3>Stay Updated</h3>
