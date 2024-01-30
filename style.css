@@ -45,12 +45,15 @@ background-color: var(--main-violet);
 
 #searchbarbtn{
   position: relative;
-  left: 50%;
+  left: -6%;
+  width: 100%;
+
 }
 
 #search-bar-btn{
   color: var(--dark-pink);
   border: var(--dark-pink) 2px solid;
+  margin-right: 100px;
 }
 
 #search-bar-btn:hover{
@@ -70,26 +73,30 @@ background-color: var(--main-violet);
   margin: 0 10px;
 }
 
-.users-cart{
-  margin: 0;
-  padding: 0;
-  border: var(--dark-pink) solid 2px;
-border-radius: 20px;
-display: flex;
+#user:hover{
+  color: var(--bright-pink);
+}
+
+.cart-btn{
+  display: flex;
 justify-content: center;
 align-items: center;
+background-color: var(--main-violet);
+border: var(--dark-pink) 2px solid;
+border-radius:30px ;
 }
 
 
+.cart-btn:hover{
+  background-color: var(--bright-pink);
+}
 
 #cart{
   color: var(--dark-pink);
 padding: 10px;
 }
 
-#cart:hover{
-  color: var(--bright-pink);
-}
+
 
 #cart-count{
   text-decoration: underline;
@@ -124,33 +131,36 @@ display: flex;
   }
 
 
- .promo-img1{
+ .promo-img{
 display: block;
+height: 700px;
+width: 1900px;
+margin: 0 auto;
+padding: 0;
  }
 
 
  .new-arrival-title,.hostest-deals-title{
-  position: absolute;
-  left: 10%;
-  padding: 0;
-  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  position: relative;
+  right: 35%;
+  padding-bottom: 20px;
+  color: var(--dark-pink);
  }
 
- .new-arrival-title{
-  color: var(--dark-pink);
-  bottom: -8%;
- }
 
- .hostest-deals-title{
-  color: var(--dark-pink);
-  bottom: -49%;
- }
 
 .hostest-deals,.best-sellers{
 margin-top: 100px;
 }
+
 .glam-title{
 text-align: center;
+font-weight: bold;
+font-size: 2.5rem;
+padding-bottom: 20px;
 }
 
 .Share-your-glam-box{
@@ -164,12 +174,14 @@ text-align: center;
   color: var(--dark-pink);
   padding: 30px;
   margin: 0;
-
+border-radius: 30px;
  }
 
  .glamphoto{
-  width: 100%;
-  margin: 0;
+  display: block;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
   padding: 0;
  }
 
@@ -188,17 +200,26 @@ text-align: center;
 .link-box{
 margin: 10px;
 padding: 30px 0;
-  border: 5px black solid;
+border: var(--darker-pink) 5px solid;
+border-radius: 30px;
+}
+
+.title-of-social-box{
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .social-details{
   padding: 10px;
- 
 }
 
 .social-link{
   text-decoration: none;
-  color: black;
+  color: var(--dark-pink);
+}
+
+.social-link:hover{
+  color: var(--bright-pink);
 }
 
 .social-link:hover{
@@ -209,8 +230,8 @@ padding: 30px 0;
 #social-icons-box{
   margin: 10px;
   padding: 0 50px;
-  border: black 5px solid;
-  
+  border: var(--darker-pink) 5px solid;
+  border-radius: 30px;
 }
 
 .sub-details{
@@ -218,15 +239,18 @@ padding: 30px 0;
 }
 
 .subcribe-bar{
-  border: black solid 5px;
+  
   border-radius: 30px;
  
 }
 
 .btn-sub{
   border-radius: 30px;
-  color: var(--dark-pink);
-  background-color: var(--main-violet);
+  border: var(--bright-pink);
+  color: var(--bright-pink);
+  background-color: var(--darker-pink);
+margin: 10px;
+padding: 10px;
 }
 
 .btn-sub:hover{
@@ -235,6 +259,14 @@ background-color: var(--baby-blue);
 
 .social-icons{
   padding: 20px;
+
+}
+
+.icons{
+  color: var(--dark-pink);
 }
 
 
+.icons:hover{
+  color: var(--bright-pink);
+}
