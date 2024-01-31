@@ -568,10 +568,19 @@ background-color: var(--bright-pink);
 }
 
 
-@media (max-width: 374px){
+@media (max-width: 382px){
   #BG{
    
-    width: 165%;
+    width: 169%;
+  }
+
+
+}
+
+@media (max-width: 298px){
+  #BG{
+   
+    width: 210%;
   }
 
 
