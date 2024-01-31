@@ -562,7 +562,7 @@ background-color: var(--bright-pink);
 }
 
 
-@media (max-width: 648px){
+@media (max-width: 649px){
   #BG{
    
     width: 105%;
@@ -572,6 +572,26 @@ background-color: var(--bright-pink);
     height: 270px;
     width: 270px;
    }
+
+
+}
+
+
+
+@media (max-width: 639px){
+  #BG{
+   
+    width: 107%;
+  }
+
+
+}
+
+@media (max-width: 609px){
+  #BG{
+   
+    width: 112%;
+  }
 
 
 }
@@ -591,8 +611,16 @@ background-color: var(--bright-pink);
 
 }
 
+@media (max-width: 495px){
+  #BG{
+   
+    width: 124%;
+  }
 
-@media (max-width: 473px){
+
+}
+
+@media (max-width: 479px){
   #BG{
    
     width: 129%;
@@ -632,7 +660,22 @@ background-color: var(--bright-pink);
 }
 
 
-@media (max-width: 382px){
+@media (max-width: 409px){
+  #BG{
+   
+    width: 144%;
+  }
+  .promo-img{
+    height:340px;
+    width: 600px;
+   
+     }
+
+}
+
+
+
+@media (max-width: 397px){
   #BG{
    
     width: 169%;
@@ -642,7 +685,7 @@ background-color: var(--bright-pink);
 }
 
 
-@media (max-width: 330px){
+@media (max-width: 341px){
   #BG{
    
     width: 176%;
@@ -671,5 +714,46 @@ background-color: var(--bright-pink);
     height:340px;
     width: 640px;
    
+     }
+}
+
+
+
+
+@media (max-width: 298px){
+  #BG{
+   
+    width: 215%;
+  }
+  .promo-img{
+    height:300px;
+    width: 560px;
+   
+     }
+
+     .glamphoto{
+      height: 200px;
+      width: 200px;
+     }
+     .sub-details{
+      padding: 12px;
+      width: 400px;
+     }
+}
+
+
+@media (max-width: 235px){
+  #BG{
+   
+    width: 218%;
+  }
+  .promo-img{
+    height:300px;
+    width: 540px;
+   
+     }
+     .glamphoto{
+      height: 180px;
+      width: 180px;
      }
 }
